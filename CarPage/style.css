@@ -487,6 +487,9 @@ body {
 
 /* ===== Mobile (≤ 600px) ===== */
 @media (max-width: 600px) {
+   body{
+    padding-top: 100px;
+  }
   .container {
     width: 100%;
   }
@@ -504,7 +507,7 @@ body {
         width: 90%;
       }
       .search_bar {
-        width: 90%;
+        display: none;
       }
     }
   }
