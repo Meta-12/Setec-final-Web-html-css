@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Khmer OS Battambang", Yu Gothic UI Semibold;
+  scroll-behavior: smooth;
 }
 body {
   background-color: #f0eded;
@@ -12,6 +13,15 @@ body {
   width: 70%;
   margin: auto;
   /* background-color: #ff8900; */
+}
+
+#topBtn{
+  position: fixed;
+  bottom: 20px;
+  right: 80px;
+  font-size: 30px;
+  color: orange;
+  font-weight: bolder;
 }
 
 .navbar {
